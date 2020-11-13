@@ -66,7 +66,6 @@ const account = props.hit.['Account Details']
 const contact = props.hit.['Contact Person']
 const inKind = props.hit.['In-Kind Donation Needs']
 const drop = props.hit.['Drop-Off Point']
-const region = props.hit.Region;
   return (
     <article>
       <h4>
