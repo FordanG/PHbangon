@@ -105,7 +105,10 @@ article h4 {
 }
 
 .footer-copyright {
+  width: 100%;
   background-color: #eeeeee;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer-copyright a {
