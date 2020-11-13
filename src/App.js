@@ -57,18 +57,21 @@ class App extends Component {
 }
 
 const Hit = (props) => {
-const { Organization } = props.hit;
+const { Organization, Region } = props.hit;
 const beneficiaries = props.hit.['Target Beneficiaries']
 const link = props.hit.['Link to Post']
 const account = props.hit.['Account Details']
 const contact = props.hit.['Contact Person']
 const inKind = props.hit.['In-Kind Donation Needs']
 const drop = props.hit.['Drop-Off Point']
+const region = props.hit.Region;
   return (
     <article>
       <h4>
         {Organization}
       </h4>
+      <p className="text-center">{Region}</p>
+
       {beneficiaries && <h5>Target Beneficiaries</h5>}
       <p>{props.hit.['Target Beneficiaries']}</p>
 
