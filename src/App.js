@@ -5,10 +5,8 @@ import {
   Hits,
   SearchBox,
   Pagination,
-  Highlight,
   ClearRefinements,
   RefinementList,
-  Configure,
 } from 'react-instantsearch-dom';
 import PropTypes from 'prop-types';
 import { Button } from 'react-bootstrap';
