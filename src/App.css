@@ -104,6 +104,21 @@ article h4 {
   color: white !important;
 }
 
+.footer-copyright {
+  background-color: #eeeeee;
+}
+
+.footer-copyright a {
+  color: gray;
+}
+
+.footer-copyright a:hover,
+.footer-copyright a:focus,
+.footer-copyright a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 @media (max-width: 600px) {
   .ais-Hits-item {
     width: 100%;

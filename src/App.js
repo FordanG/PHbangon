@@ -7,9 +7,11 @@ import {
   Pagination,
   ClearRefinements,
   RefinementList,
+  Configure,
 } from 'react-instantsearch-dom';
 import PropTypes from 'prop-types';
 import { Button } from 'react-bootstrap';
+import Footer from './components/Footer'
 import './App.css';
 
 const searchClient = algoliasearch(
@@ -20,6 +22,7 @@ const searchClient = algoliasearch(
 class App extends Component {
   render() {
     return (
+      <>
       <div className="ais-InstantSearch">
         <nav className="navbar navbar-light bg-light">
       <div className="container">
@@ -37,7 +40,7 @@ class App extends Component {
             <RefinementList attribute="Region" />
             <h2>Donation Type</h2>
             <RefinementList attribute="Donation Type" />
-            {/* <Configure hitsPerPage={8} /> */}
+            <Configure hitsPerPage={6} />
           </div>
           <div className="right-panel">
             <SearchBox searchAsYouType={false}/>
@@ -47,6 +50,8 @@ class App extends Component {
         </InstantSearch>
         </div>
       </div>
+      <Footer />
+      </>
     );
   }
 }
