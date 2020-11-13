@@ -1,4 +1,4 @@
-# ais-ecommerce-demo-app-react
+# Bangon Pilipinas Algolia Search Database
 
 _This project was generated with [create-instantsearch-app](https://github.com/algolia/create-instantsearch-app) by [Algolia](https://algolia.com)._
 
