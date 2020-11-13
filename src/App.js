@@ -36,10 +36,12 @@ class App extends Component {
         <InstantSearch indexName="test_DONATIONS" searchClient={searchClient}>
           <div className="left-panel d-none d-md-block">
             <ClearRefinements />
-            <h2>Region</h2>
-            <RefinementList attribute="Region" />
             <h2>Donation Type</h2>
             <RefinementList attribute="Donation Type" />
+            <h2>Region</h2>
+            <RefinementList attribute="Region" />
+            {/* <h2>City</h2>
+            <RefinementList attribute="City" /> */}
             <Configure hitsPerPage={6} />
           </div>
           <div className="right-panel">
@@ -57,7 +59,7 @@ class App extends Component {
 }
 
 const Hit = (props) => {
-const { Organization, Region } = props.hit;
+const { Organization, Region, City } = props.hit;
 const beneficiaries = props.hit.['Target Beneficiaries']
 const link = props.hit.['Link to Post']
 const account = props.hit.['Account Details']
@@ -70,7 +72,7 @@ const region = props.hit.Region;
       <h4>
         {Organization}
       </h4>
-      <p className="text-center">{Region}</p>
+      <p className="text-center">{Region}<br></br>{City}</p>
 
       {beneficiaries && <h5>Target Beneficiaries</h5>}
       <p>{props.hit.['Target Beneficiaries']}</p>
