@@ -23,6 +23,7 @@ class App extends Component {
   render() {
     return (
       <>
+      <div className="pageContainer">
       <div className="ais-InstantSearch">
         <nav className="navbar navbar-light bg-light">
       <div className="container">
@@ -53,6 +54,9 @@ class App extends Component {
         </div>
       </div>
       <Footer />
+      </div>
+      
+      
       </>
     );
   }
