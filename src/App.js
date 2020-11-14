@@ -75,7 +75,8 @@ const drop = props.hit.['Drop-Off Point']
       <h4>
         {Organization}
       </h4>
-      <p className="text-center">{Region}<br></br>{City}</p>
+      <p className="text-center my-0">{Region}</p>
+      <p className="text-center mt-0">{City}</p>
 
       {beneficiaries && <h5>Target Beneficiaries</h5>}
       <p>{props.hit.['Target Beneficiaries']}</p>
