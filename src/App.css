@@ -132,6 +132,10 @@ article h4 {
   color: inherit;
 }
 
+.enter {
+  white-space: pre-line;
+}
+
 @media (max-width: 600px) {
   .ais-Hits-item {
     width: 100%;
