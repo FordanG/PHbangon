@@ -105,6 +105,11 @@ article h4 {
   color: white !important;
 }
 
+.navbar-brand a {
+  text-decoration: none;
+  color: white !important;
+}
+
 .pageContainer {
   min-height: 100vh;
   position: relative;

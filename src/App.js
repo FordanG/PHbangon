@@ -28,7 +28,7 @@ class App extends Component {
         <nav className="navbar navbar-light bg-light">
       <div className="container">
         <h1 className="navbar-brand text-center">
-          Bangon Pilipinas #YouthRisePH
+          <a href="https://phbangon.com">Bangon Pilipinas #YouthRisePH</a>
           </h1>
           <p>Relief Efforts for #UlyssesPH Database</p>
       </div>
