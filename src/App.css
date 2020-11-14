@@ -116,25 +116,40 @@ article h4 {
 }
 
 .ais-InstantSearch {
-  padding-bottom: 72px;
+  padding-bottom: 200px;
 }
 
 .footer-copyright {
   width: 100%;
-  background-color: #eeeeee;
   position: absolute;
   bottom: 0;
 }
 
-.footer-copyright a {
+.footer-copyright p {
+  margin: 0;
+}
+
+.bottom-footer a {
   color: gray;
 }
 
-.footer-copyright a:hover,
-.footer-copyright a:focus,
-.footer-copyright a:active {
+.bottom-footer a:hover,
+.bottom-footer a:focus,
+.bottom-footer a:active {
   text-decoration: none;
   color: inherit;
+}
+
+.top-footer {
+  background-color: #dddddd;
+}
+
+.top-footer a {
+  color: blue;
+}
+
+.bottom-footer {
+  background-color: #eeeeee;
 }
 
 .enter {
