@@ -79,10 +79,10 @@ const drop = props.hit.['Drop-Off Point']
       <p className="text-center mt-0">{City}</p>
 
       {beneficiaries && <h5>Target Beneficiaries</h5>}
-      <p>{props.hit.['Target Beneficiaries']}</p>
+      <p className="enter">{props.hit.['Target Beneficiaries']}</p>
 
       {contact && <h5>Contact Person</h5>}
-      <p>{props.hit.['Contact Person']}</p>
+      <p className="enter">{props.hit.['Contact Person']}</p>
       
       {account &&  <h5>Account Details</h5>}
       <p className="enter">{props.hit.['Account Details']}</p>
@@ -91,7 +91,7 @@ const drop = props.hit.['Drop-Off Point']
       <p className="enter">{props.hit.['In-Kind Donation Needs']}</p>
 
       {drop && <h5>Drop-off Point</h5>}
-      <p>{props.hit.['Drop-Off Point']}</p>
+      <p className="enter">{props.hit.['Drop-Off Point']}</p>
       
       {link &&
       <div className="text-center">
