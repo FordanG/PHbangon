@@ -46,7 +46,7 @@ class App extends Component {
             <Configure hitsPerPage={6} />
           </div>
           <div className="right-panel">
-            <SearchBox searchAsYouType={true}/>
+            <SearchBox searchAsYouType={false}/>
             <Hits hitComponent={Hit} />
             <Pagination />
           </div>
